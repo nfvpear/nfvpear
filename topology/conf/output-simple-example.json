@@ -1,0 +1,48 @@
+{
+    "sfc": [
+        {
+            "id": 0,
+            "nodes": [
+                {
+                    "id": 0,
+                    "type": "end-point",
+                    "location": 0
+                },
+                {
+                    "id": 1,
+                    "instance": 1,
+                    "nfid": 0,
+                    "type": "network-function",
+                    "location": 1
+                },
+                {
+                    "id": 2,
+                    "type": "end-point",
+                    "location": 2
+                }
+            ],
+            "links": [
+                {
+                    "source": 0,
+                    "target": 1,
+                    "position": [
+                        {
+                            "source": 0,
+                            "target": 1
+                        }
+                    ]
+                },
+                {
+                    "source": 1,
+                    "target": 2,
+                    "position": [
+                        {
+                            "source": 1,
+                            "target": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

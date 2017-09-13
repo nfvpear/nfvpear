@@ -1,0 +1,90 @@
+{
+    "sfc": [
+        {
+            "id": 0,
+            "nodes": [
+                {
+                    "id": 0,
+                    "type": "end-point",
+                    "location": 0
+                },
+                {
+                    "id": 1,
+                    "instance": 1,
+                    "nfid": 0,
+                    "type": "network-function",
+                    "location": 1
+                },
+                {
+                    "id": 2,
+                    "instance": 1,
+                    "nfid": 1,
+                    "type": "network-function",
+                    "location": 2,
+                    "server1": 4,
+                    "server2": 6
+                },
+                {
+                    "id": 3,
+                    "type": "end-point",
+                    "location": 4
+                },
+                {
+                    "id": 4,
+                    "type": "end-point",
+                    "location": 6
+                }
+            ],
+            "links": [
+                {
+                    "source": 0,
+                    "target": 1,
+                    "position": [
+                        {
+                            "source": 0,
+                            "target": 1
+                        }
+                    ]
+                },
+                {
+                    "source": 1,
+                    "target": 2,
+                    "position": [
+                        {
+                            "source": 1,
+                            "target": 2
+                        }
+                    ]
+                },
+                {
+                    "source": 2,
+                    "target": 3,
+                    "position": [
+                        {
+                            "source": 2,
+                            "target": 3
+                        },
+                        {
+                            "source": 3,
+                            "target": 4
+                        }
+                    ]
+                },
+                {
+                    "source": 2,
+                    "target": 5,
+                    "position": [
+                        {
+                            "source": 2,
+                            "target": 5
+                        },
+                        {
+                            "source": 5,
+                            "target": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

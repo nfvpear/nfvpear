@@ -1,0 +1,4 @@
+link: s1-eth1:h1-eth0  s1-eth3:s2-eth3
+link: s2-eth1:p21-eth0 s2-eth2:p21-eth1 s2-eth3:s1-eth3 s2-eth4:s3-eth4
+link: s3-eth1:h3-eth0  s3-eth4:s2-eth4
+pop: p21-192.168.122.92
